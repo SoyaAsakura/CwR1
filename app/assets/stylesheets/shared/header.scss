@@ -2,22 +2,17 @@
   box-sizing: border-box;
 }
 
-.top-page-header {
+.header {
   width: 100vw;
   padding: 2vh 15vw;
   display: flex;
   flex-direction: column;
 }
 
-.search-bar-contents {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .furima-icon {
   width: 10vw;
   margin-right: 10vw;
+  size: 100px;
 }
 
 .search-form {
@@ -60,13 +55,13 @@
 
 }
 
-.category-list {
+.C {
   text-decoration: none;
   margin-right: 3vw;
   color: #333333;
 }
 
-.brand-list {
+.S {
   text-decoration: none;
   color: #333333;
 }
